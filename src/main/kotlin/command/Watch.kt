@@ -36,6 +36,8 @@ class Watch : CliktCommand(printHelpOnEmptyArgs = true) {
         val path = Paths.get(dir.absolutePathString())
         val watcher = path.watch()
 
+        //TODO: add logic to filter file
+
         while (true) {
             //The watcher blocks until an event is available
             val key = watcher.take()

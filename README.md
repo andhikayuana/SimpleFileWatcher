@@ -23,4 +23,5 @@ Halo.txt was deleted
 ```
 
 ## TODO
+- need logic to filter file type ?
 - need improvement using Coroutines ?
